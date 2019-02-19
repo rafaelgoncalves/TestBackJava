@@ -1,3 +1,33 @@
+# Instruções
+
+Existem duas maneiras de executar o projeto
+
+### # 1
+
+-  Caso tenha o docker e docker-compose instalados, basta executar:
+```console
+docker-compose up --build
+```
+
+### # 2
+
+- Caso tenha Java (requerimento mínimo versão 8), basta executar:
+
+WINDOWS:
+```console
+mvnw.cmd springboot:run
+```
+Linux/Mac Os:
+```console
+chmod +x mvnw
+mvnw springboot:run
+```
+
+A Aplicação executará na porta 8080, a rota inicial ficaria assim: http://localhost:8080/api/gestao
+
+Toda a documentação da API está no Swagger, com os passos necessários para utilização.
+
+
 # Show me the code
 
 ### # DESAFIO:
